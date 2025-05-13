@@ -1,0 +1,39 @@
+
+
+@media (min-width: 1920px) {
+    
+    body {
+        background-color:rgb(236, 206, 206); /*Deskrop*/ 
+    }
+}
+@media (min-width: 1024px) and (max-width: 1919px){
+    
+    body {
+        background-color: rgb(235, 155, 155); /*Laptops*/
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){ 
+
+    body{
+         background-color: rgb(238, 73, 73); /*tablets */
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+
+    body {
+      background-color: rgb(235, 17, 17); /* phones */
+    }
+  }
+        
+h2{
+    text-align: center;
+    font-size: 24px;
+  font-weight: 800;
+  font-style: italic;
+  color: #044068;
+}
+.header{
+flex: auto;
+flex-direction: row;
+
+}
