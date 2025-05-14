@@ -21,18 +21,91 @@
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 <header id="header" >
     <div>
-        <h1>CV Jan Tvrznik</h1>
+        <h1>Jan Tvrznik</h1>
     </div>
-    <img src="Paul_Circle.png" alt="foto ME" width="150" height="150"/>
-</header>
+  
+  
+  <div class="image-container">
+    <!-- Overlay photo -->
+    <img class="Foto" src="Paul_Circle.png" alt="foto ME" width="150" height="150"/> 
+    <!-- background photo -->
+    <img class="sun" src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt=Sun width="300" height="300"> 
+</div>
+
+
+  </header>
 
 <ul>
     <li><a href="#About">About</a></li>
     <li><a href="#Education">Education</a></li>
     <li><a href="#Experience">Experience</a></li>
-    <li><a href="#Contact_page.html">Contact</a></li>
+    <a href="Contact_page.html"> Contact form</a>
 
 </ul>
+
+
+<section id="Flexboxes">
+  <!-- Main flex container to align Box 1 and Box 2 inline -->
+  <div class="flex-container">
+    
+   <!-- Box 1: Contains Box 3 (Soft Skills) and Box 4 (Hard Skills) -->
+    <div class="box1">
+      <!-- Box 3 (Soft Skills) -->
+      <div class="box3">
+        <!-- Box 5 (Centered inside Box 3) -->
+        <div class="box5">
+          <h4>Soft Skills</h4>
+          <ul>
+            <li>Communication</li>
+            <li>Problem-Solving</li>
+            <li>Time Management</li>
+            <li>Teamwork</li>
+            <li>Adaptability</li>
+            <li>Leadership</li>
+            <li>Critical Thinking</li>
+          </ul>
+        </div>
+      </div>
+      
+    <!-- Box 4 (Hard Skills) -->
+      <div class="box4">
+        <!-- Box 6 (Centered inside Box 4) -->
+        <div class="box6">
+          <h4>Hard Skills</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>SCSS/SASS</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Next.js</li>
+            <li>Vue.js</li>
+            <li>TypeScript</li>
+            <li>REST APIs</li>
+            <li>Node.js</li>
+            <li>Git & GitHub</li>
+            <li>CI/CD</li>
+            <li>Jest, Enzyme</li>
+            <li>Webpack</li>
+            <li>NPM/Yarn</li>
+            <li>Agile/SCRUM</li>
+            <li>SEO Optimization</li>
+            <li>WordPress</li>
+            <li>UI/UX Design</li>
+            <li>Cross-Browser Compatibility</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Box 2, placed inline with Box 1 -->
+    <div class="box2">
+    
+
+
+
+
 
 <section id = "About">
     <h2>About</h2>
@@ -71,27 +144,70 @@
     
 </section>
 
-<section id = "Experience"></section>
-    <h2>Experience</h2>
+<section id="Experience">
+  <h2>Experience</h2>
 
-    <div>
-        <h3>Frontend Developer – XYZ Solutions s.r.o.</h3>
-        <p><strong>2020 – současnost | Praha</strong></p>
-        <p>
-          Vyvíjím a udržuji responzivní webové aplikace pro e-commerce a finanční klienty s využitím Reactu, Next.js, SCSS a REST API. Pracuji v agilním SCRUM týmu, spolupracuji s UX a backend vývojáři, podílím se na code review a mentoruji juniory. Také jsem pomáhal zavést CI/CD proces a nový design systém.
-        </p>
-      </div>
-    
-      <div>
-        <h3>Junior Web Developer – WebStudio.cz</h3>
-        <p><strong>2018 – 2020 | Praha</strong></p>
-        <p>
-          Tvořil jsem firemní weby a e-shopy v HTML, CSS a JavaScriptu, pracoval jsem s WordPressem a Joomlou, optimalizoval výkon a SEO a úzce spolupracoval se zákazníky při sběru požadavků. Podílel jsem se i na vývoji interního CMS nástroje.
-        </p>
-      </div>
-    
+  <div>
+    <h3>Frontend Developer – XYZ Solutions s.r.o.</h3>
+    <p><strong>2020 – současnost | Praha</strong></p>
+    <p>
+      Vyvíjím a udržuji responzivní webové aplikace pro e-commerce a finanční klienty s využitím Reactu, Next.js, SCSS a REST API. Pracuji v agilním SCRUM týmu, spolupracuji s UX a backend vývojáři, podílím se na code review a mentoruji juniory. Také jsem pomáhal zavést CI/CD proces a nový design systém.
+    </p>
+  </div>
+
+  <div>
+    <h3>Junior Web Developer – WebStudio.cz</h3>
+    <p><strong>2018 – 2020 | Praha</strong></p>
+    <p>
+      Tvořil jsem firemní weby a e-shopy v HTML, CSS a JavaScriptu, pracoval jsem s WordPressem a Joomlou, optimalizoval výkon a SEO a úzce spolupracoval se zákazníky při sběru požadavků. Podílel jsem se i na vývoji interního CMS nástroje.
+    </p>
+  </div>
+
+  <div>
+    <h3>Senior Frontend Developer – CreativeTech s.r.o.</h3>
+    <p><strong>2021 – současnost | Praha</strong></p>
+    <p>
+      V současnosti se podílím na vývoji webových aplikací pro globální klienty ve fintech sektoru. Zaměřuji se na tvorbu komplexních uživatelských rozhraní s použitím moderních JavaScriptových frameworků jako React a Vue.js. Aktivně se podílím na návrhu a implementaci technických architektur, optimalizaci výkonu a zavádění unit testů pomocí Jest a Enzyme. V rámci týmové spolupráce se podílím na vedení týmu, pravidelných code reviews, a mentoringu juniorních vývojářů.
+    </p>
+  </div>
+
+  <div>
+    <h3>Frontend Developer – SmartWeb Solutions</h3>
+    <p><strong>2019 – 2021 | Praha</strong></p>
+    <p>
+      V této roli jsem pracoval na vývoji a optimalizaci webových aplikací pro různé klienty v oblasti e-commerce a digitálního marketingu. Používal jsem JavaScript a knihovny jako React a Angular pro dynamické interaktivní prvky, a SCSS pro správu stylů. Zodpovídal jsem za vývoj mobilních verzí webů a zajištění plné kompatibility mezi různými prohlížeči. Aktivně jsem spolupracoval s designéry při implementaci moderních designových šablon a zaváděl jsem automatizované testy pro zajištění kvality kódu.
+    </p>
+  </div>
+
+  <div>
+    <h3>Junior Frontend Developer – WebForge Agency</h3>
+    <p><strong>2017 – 2019 | Praha</strong></p>
+    <p>
+      Začal jsem svou kariéru jako junior frontend developer, kde jsem vytvářel responzivní webové stránky a aplikace pro malé a střední podniky. Pracoval jsem s HTML, CSS a JavaScript, implementoval jsem moderní CSS preprocesory jako SASS a zajišťoval, aby všechny weby byly plně optimalizované pro SEO. Součástí mé práce bylo i řešení bugů, testování kompatibility a spolupráce s týmem backend vývojářů na integraci s API. Tato pozice mi poskytla solidní základy pro práci s frontend technologiemi a designovými systémy.
+    </p>
+  </div>
+
+  <div>
+    <h3>Web Developer – Freelance</h3>
+    <p><strong>2015 – 2017 | Praha</strong></p>
+    <p>
+      Pracoval jsem na menších projektech pro klienty v oblasti web designu a vývoje. Vytvářel jsem dynamické a responzivní weby pomocí HTML, CSS, JavaScriptu, a PHP. Dále jsem se podílel na úpravách a vývoji pluginů pro WordPress a jiné CMS platformy. Specializoval jsem se na tvorbu efektivního a optimalizovaného kódu a pravidelně komunikoval s klienty ohledně jejich požadavků a návrhu funkcí. Tato práce mi pomohla rozvinout komunikační a technické dovednosti v oblasti webového vývoje.
+    </p>
+  </div>
+
+  <div>
+    <h3>Web Developer – Digital Creative Agency</h3>
+    <p><strong>2014 – 2015 | Praha</strong></p>
+    <p>
+      Ve své první profesionální pozici jsem pracoval na různých webových projektech pro zákazníky z oblasti kultury a médií. Vytvářel jsem statické a dynamické weby v HTML, CSS a PHP, a prováděl jejich optimalizaci pro různé prohlížeče a zařízení. Pracoval jsem také na implementaci základních SEO technik a zajišťoval technickou podporu pro klienty po spuštění webu. Tato pozice byla mojí první zkušeností s webovým vývojem a poskytla mi solidní základy pro pokračování v oblasti frontend vývoje.
+    </p>
+  </div>
 </section>
 
+
+    </div>
+  </div>
+</section>
 
 
 
